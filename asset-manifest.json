@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24dc4590.chunk.css",
+    "main.js": "/static/js/main.88cc17ca.chunk.js",
+    "main.js.map": "/static/js/main.88cc17ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b56193fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b56193fa.js.map",
+    "static/js/2.09e00d58.chunk.js": "/static/js/2.09e00d58.chunk.js",
+    "static/js/2.09e00d58.chunk.js.map": "/static/js/2.09e00d58.chunk.js.map",
+    "static/js/3.edcbc327.chunk.js": "/static/js/3.edcbc327.chunk.js",
+    "static/js/3.edcbc327.chunk.js.map": "/static/js/3.edcbc327.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.24dc4590.chunk.css.map": "/static/css/main.24dc4590.chunk.css.map",
+    "static/js/2.09e00d58.chunk.js.LICENSE.txt": "/static/js/2.09e00d58.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/profile-edit-button.a1892ea7.svg",
+    "static/media/mesto-logo.1f1e9591.svg": "/static/media/mesto-logo.1f1e9591.svg",
+    "static/media/profile-avatar-button.a086f758.svg": "/static/media/profile-avatar-button.a086f758.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56193fa.js",
+    "static/js/2.09e00d58.chunk.js",
+    "static/css/main.24dc4590.chunk.css",
+    "static/js/main.88cc17ca.chunk.js"
+  ]
+}
