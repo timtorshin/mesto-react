@@ -13,7 +13,3 @@
 * Grid Layout
 * Позиционирование элементов
 * CRA (ReactJS)
-
-## Ссылка на GitHub Pages:
-
-[Проектная работа "Mesto"](https://timtorshin.github.io/mesto-react/)

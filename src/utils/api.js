@@ -30,24 +30,24 @@ class Api {
     .then(this._checkResponse);
   }
 
-  editProfileInfo(inputData) {
+   editProfileInfo(name, about) {
     return fetch(`${this._url}/users/me`, {
       method: "PATCH",
       headers: this._headers,
       body: JSON.stringify({
-        name: inputData.name,
-        about: inputData.description,
+        name: name,
+        about: about,
       }),
     }).then(this._checkResponse);
   }
 
-  addNewCard(inputData) {
+  addNewCard(name, link) {
     return fetch(`${this._url}/cards`, {
       method: "POST",
       headers: this._headers,
       body: JSON.stringify({
-        name: inputData.name,
-        link: inputData.link,
+        name: name,
+        link: link,
       }),
     }).then(this._checkResponse);
   }
@@ -76,12 +76,12 @@ class Api {
     .then(this._checkResponse);
   }
 
-  updateAvatar(inputData) {
+  updateAvatar(avatar) {
     return fetch(`${this._url}/users/me/avatar`, {
       method: "PATCH",
       headers: this._headers,
       body: JSON.stringify({
-        avatar: inputData.link,
+        avatar: avatar,
       }),
     }).then(this._checkResponse);
   }
