@@ -7,7 +7,7 @@ import EditProfilePopup from './EditProfilePopup';
 import AddPlacePopup from './AddPlacePopup';
 import ImagePopup from './ImagePopup';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
-import { api } from '../utils/api';
+import api from '../utils/api';
 
 function App() {
   const [currentUser, setCurrentUser] = React.useState({});
